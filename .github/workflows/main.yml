@@ -10,8 +10,8 @@ jobs:
       - name: Check Tickets
         uses: mooyoul/melon-ticket-actions@v1.1.0
         with:
-          product-id: 204755
+          product-id: 210230
           schedule-id: 100001
           seat-id: 1_0
-          slack-incoming-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          slack-incoming-webhook-url: https://hooks.slack.com/services/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
           message: '<@U12345678> 달려달려~'
